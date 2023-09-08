@@ -1,2 +1,3 @@
 # EasyEscel-list
 Based on the secondary development of easyexcel, a new getList method is added, which can directly return all the data in excel, and the method has a locking mechanism, so there will be no missed insertion, and it occupies very little memory
+Using this jar package requires the ListenerList class to be inherited Override the invoke, getlist methods, where you can add excel imported objects using lists.add(). The object that inherits the ListenerList class can then be called in another layer to get all the data in the excel table through the getlist method. The rest of the operation is the same as easyexcel. 
