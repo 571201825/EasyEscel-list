@@ -23,7 +23,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public abstract  class ListenerList<T> extends AnalysisEventListener<T> {
 
-    static  List lists=new CopyOnWriteArrayList<>();
+    static  List lists=new CopyOnWriteArrayList();
 
     @Override
     public void invoke(T t, AnalysisContext analysisContext) {
